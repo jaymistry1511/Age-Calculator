@@ -1,5 +1,5 @@
 /* style.css */
-body {
+/* body {
   font-family: sans-serif;
   text-align: center;
   background-color: skyblue;
@@ -30,4 +30,68 @@ button {
   background-color: skyblue;
   border: 2px solid blue;
   border-radius: 5%;
+} */
+
+/* style.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  /* Choose a modern font like Roboto */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  /* Light gray background */
+  color: #333;
+  /* Dark gray text */
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #2196F3;
+  /* Blue accent color */
+}
+
+input[type="date"] {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* Rounded corners */
+  font-size: 16px;
+  width: 200px;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
+
+span {
+  font-weight: bold;
+  /* Make age values bold */
+}
+
+/* Style for the age breakdown */
+.age-breakdown {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.age-item {
+  margin: 10px;
+  text-align: center;
+  width: 100px;
+  /* Adjust width for your layout */
+}
+
+/* Style for the remaining days */
+#remain {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  color: #4CAF50;
+  /* Green color for remaining days */
 }
