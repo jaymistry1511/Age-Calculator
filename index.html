@@ -10,9 +10,21 @@
 
 <body>
   <h1>Age Calculator</h1>
-  <input type="date" id="birthdate">
-  <button onclick="calculateAge()">Calculate Age</button>
-  <div id="age"></div>
+  <input type="date" id="birthdate" onchange="calculateAge()">
+  <p>Your current age is:</p>
+  <p>Years: <span id="years"></span></p>
+  <p>Months: <span id="months"></span></p>
+  <p>Weeks: <span id="weeks"></span></p>
+  <p>Days: <span id="days"></span></p>
+  <p>Hours: <span id="hours"></span></p>
+  <p>Minutes: <span id="minutes"></span></p>
+  <p>Seconds: <span id="seconds"></span></p>
+  <p>
+  <h3>Your Next Birthday will come after: </h3>
+  <h5><span id="remain"></span></h5>
+  </p>
+
+
   <script src="script.js"></script>
 </body>
 
