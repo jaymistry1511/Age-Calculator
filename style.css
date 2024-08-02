@@ -1,38 +1,4 @@
 /* style.css */
-/* body {
-  font-family: sans-serif;
-  text-align: center;
-  background-color: skyblue;
-}
-
-input[type="date"] {
-  padding: 10px;
-  margin: 10px;
-  border: 1px solid #ccc;
-}
-
-button {
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-#age {
-  font-size: 20px;
-  margin-top: 20px;
-}
-
-#birthdate {
-  padding: 10px;
-  margin: 10px;
-  background-color: skyblue;
-  border: 2px solid blue;
-  border-radius: 5%;
-} */
-
-/* style.css */
 body {
   font-family: 'Roboto', sans-serif;
   /* Choose a modern font like Roboto */
