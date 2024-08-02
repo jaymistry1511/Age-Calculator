@@ -2,6 +2,7 @@
 body {
   font-family: sans-serif;
   text-align: center;
+  background-color: skyblue;
 }
 
 input[type="date"] {
@@ -21,4 +22,12 @@ button {
 #age {
   font-size: 20px;
   margin-top: 20px;
+}
+
+#birthdate {
+  padding: 10px;
+  margin: 10px;
+  background-color: skyblue;
+  border: 2px solid blue;
+  border-radius: 5%;
 }
